@@ -10,6 +10,17 @@ section{
 }
 .half-width img{
     width: 100%;
+    border-radius: 10%;
+}
+#top-header{
+    font-family: cursive;
+    border-left: 5px solid violet;
+    padding: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.color-a-portion{
+    color: brown;
 }
 .button{
     text-decoration: none;
@@ -18,20 +29,9 @@ section{
     border-radius: 5px;
     font-weight: 600;
 }
-footer{
+#mission-header{
     text-align: center;
-    background-color: black;
-    color: white;
-}
-footer h1{
-    font-family: 'Shadows Into Light', cursive;
-}
-.top-header{
-    font-family: cursive;
-    border-left: 5px solid violet;
-    padding: 0 0 0 2%;
-    border-radius: 3px;
-    font-size: 20px;
+    font-size: 50px;
 }
 .one-third{
     width: 33%;
@@ -40,13 +40,9 @@ footer h1{
     margin: 5% 5%;
 }
 .one-third img{
-    width: 25%;
-}
-#mission-header{
-    text-align: center;
-}
-.color-a-portion{
-    color: brown;
+    width: 75%;
+    padding: 5% 5%;
+    border-radius: 100%;
 }
 #mission-bg{
     background-color: burlywood;
@@ -56,4 +52,20 @@ footer h1{
 }
 #goal-bg{
     background-color: gainsboro;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+#footer-h1-left{
+    color: white;
+}
+#footer-h1-right{
+    color: orangered;
+}
+footer p{
+    color: palegoldenrod;
 }
