@@ -1,12 +1,15 @@
+body p{
+    font-size: 20px;
+}
 section{
     display: flex;
 }
 .half-width{
     width: 50%;
-    padding: 0 0 0 5%;
+    padding: 0 5% 5% 5%;
 }
 .half-width img{
-    width: 70%;
+    width: 100%;
 }
 .button{
     text-decoration: none;
@@ -24,6 +27,33 @@ footer h1{
     font-family: 'Shadows Into Light', cursive;
 }
 .top-header{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-left: rgb(236, 18, 29);
+    font-family: cursive;
+    border-left: 5px solid violet;
+    padding: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.one-third{
+    width: 33%;
+    padding: 0 5% 5% 5%;
+    border-radius: 20px;
+    margin: 5% 5%;
+}
+.one-third img{
+    width: 25%;
+}
+#mission-header{
+    text-align: center;
+}
+.color-a-portion{
+    color: brown;
+}
+#mission-bg{
+    background-color: burlywood;
+}
+#vision-bg{
+    background-color: rgb(117, 94, 34);
+}
+#goal-bg{
+    background-color: gainsboro;
 }
