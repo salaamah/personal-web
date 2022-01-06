@@ -1,0 +1,29 @@
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 0 0 0 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+.top-header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-left: rgb(236, 18, 29);
+}
